@@ -1,0 +1,760 @@
+[info] Updating {file:/C:/Users/ring_kinces/Documents/My%20Dropbox/Dropbox/scala_assignments/forcomp/}assignment...
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] :: resolving dependencies :: progfun-forcomp#progfun-forcomp_2.10;1.0.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [compile]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=compile
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile
+[debug] 	using sbt-chain to resolve org.scala-lang#scala-library;2.10.1
+[info] Resolving org.scala-lang#scala-library;2.10.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.1 {compile=[default(compile)]}
+[debug] sbt-chain: no namespace defined: using system
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.1.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	resolver not found: Maven Central => trying to use the one configured for org.scala-lang#scala-library;2.10.1
+[debug] 	configured resolver found for org.scala-lang#scala-library;2.10.1: sbt-chain: saving this data
+[debug] 	found ivy file in cache for org.scala-lang#scala-library;2.10.1 (resolved by sbt-chain): C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.1.xml
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.1
+[debug] sbt-chain: no latest strategy defined: using default
+[debug] local: no namespace defined: using system
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.1.xml
+[debug] 	found ivy file in cache for org.scala-lang#scala-library;2.10.1 (resolved by sbt-chain): C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.1.xml
+[debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.1
+[debug] 	checking org.scala-lang#scala-library;2.10.1 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.scala-lang#scala-library;2.10.1 from sbt-chain
+[debug] 	found org.scala-lang#scala-library;2.10.1 in sbt-chain
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [runtime]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=runtime
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [compile]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [test]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=test
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [runtime]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [compile]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test
+[debug] 	using sbt-chain to resolve org.scalatest#scalatest_2.10;1.9.1
+[info] Resolving org.scalatest#scalatest_2.10;1.9.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;1.9.1 {test=[default(compile)]}
+[debug] 	no ivy file in cache for org.scalatest#scalatest_2.10;1.9.1: tried C:\Users\ring_kinces\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-1.9.1.xml
+[debug] 	no ivy file in cache for org.scalatest#scalatest_2.10;1.9.1: tried C:\Users\ring_kinces\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-1.9.1.xml
+[debug] 	 trying C:\Users\ring_kinces\.ivy2\local\org.scalatest\scalatest_2.10\1.9.1\ivys\ivy.xml
+[debug] 		tried C:\Users\ring_kinces\.ivy2\local\org.scalatest\scalatest_2.10\1.9.1\ivys\ivy.xml
+[debug] 	local: resource not reachable for org.scalatest#scalatest_2.10;1.9.1: res=C:\Users\ring_kinces\.ivy2\local\org.scalatest\scalatest_2.10\1.9.1\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.scalatest#scalatest_2.10;1.9.1
+[debug] public: no namespace defined: using system
+[debug] 	no ivy file in cache for org.scalatest#scalatest_2.10;1.9.1: tried C:\Users\ring_kinces\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-1.9.1.xml
+[debug] 	 trying http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom
+[debug] 		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom
+[debug] 	public: found md file for org.scalatest#scalatest_2.10;1.9.1
+[debug] 		=> http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom (1.9.1)
+[debug] 	parser = sbt.CustomPomParser@a41f08
+[debug] 	no ivy file in cache for org.scalatest#scalatest_2.10;1.9.1: tried C:\Users\ring_kinces\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-1.9.1.xml
+[debug] downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom
+[debug] 		to C:\Users\ring_kinces\.ivy2\cache\org.scalatest\scalatest_2.10\ivy-1.9.1.xml.original.part
+[debug] sha1 file found for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom: checking...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom.sha1
+[debug] 		to C:\Users\RING_K~1\AppData\Local\Temp\ivytmp2257013413090610517sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom
+[debug] 	[SUCCESSFUL ] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.pom(pom.original) (735ms)
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\ring_kinces\.ivy2\cache\org.sonatype.oss\oss-parent\ivy-7.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.sonatype.oss#oss-parent;7 (resolved by sbt-chain): C:\Users\ring_kinces\.ivy2\cache\org.sonatype.oss\oss-parent\ivy-7.xml
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\ring_kinces\.ivy2\cache\org.sonatype.oss\oss-parent\ivy-7.xml
+[debug] 	found ivy file in cache for org.sonatype.oss#oss-parent;7 (resolved by sbt-chain): C:\Users\ring_kinces\.ivy2\cache\org.sonatype.oss\oss-parent\ivy-7.xml
+[debug] 	local: revision in cache: org.sonatype.oss#oss-parent;7
+[debug] 	checking org.sonatype.oss#oss-parent;7 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.sonatype.oss#oss-parent;7 from sbt-chain
+[debug] 	 trying C:\Users\ring_kinces\.ivy2\local\org.scalatest\scalatest_2.10\1.9.1\jars\scalatest_2.10.jar
+[debug] 		tried C:\Users\ring_kinces\.ivy2\local\org.scalatest\scalatest_2.10\1.9.1\jars\scalatest_2.10.jar
+[debug] 	local: resource not reachable for org.scalatest#scalatest_2.10;1.9.1: res=C:\Users\ring_kinces\.ivy2\local\org.scalatest\scalatest_2.10\1.9.1\jars\scalatest_2.10.jar
+[debug] 	 trying http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar
+[debug] no source artifact found for org.scalatest#scalatest_2.10;1.9.1
+[debug] no javadoc artifact found for org.scalatest#scalatest_2.10;1.9.1
+[debug] 	default-cache: parsed downloaded md file for org.scalatest#scalatest_2.10;1.9.1; parsed=org.scalatest#scalatest_2.10;1.9.1
+[debug] 	checking org.scalatest#scalatest_2.10;1.9.1 from public against [none]
+[debug] 	module revision kept as first found: org.scalatest#scalatest_2.10;1.9.1 from public
+[debug] 	found org.scalatest#scalatest_2.10;1.9.1 in public
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->runtime]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->compile]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test
+[debug] 	using sbt-chain to resolve org.scala-lang#scala-actors;2.10.0
+[info] Resolving org.scala-lang#scala-actors;2.10.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-actors;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] 	no ivy file in cache for org.scala-lang#scala-actors;2.10.0: tried C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
+[debug] 	no ivy file in cache for org.scala-lang#scala-actors;2.10.0: tried C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
+[debug] 	 trying C:\Users\ring_kinces\.ivy2\local\org.scala-lang\scala-actors\2.10.0\ivys\ivy.xml
+[debug] 		tried C:\Users\ring_kinces\.ivy2\local\org.scala-lang\scala-actors\2.10.0\ivys\ivy.xml
+[debug] 	local: resource not reachable for org.scala-lang#scala-actors;2.10.0: res=C:\Users\ring_kinces\.ivy2\local\org.scala-lang\scala-actors\2.10.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-actors;2.10.0
+[debug] 	no ivy file in cache for org.scala-lang#scala-actors;2.10.0: tried C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
+[debug] 	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
+[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
+[debug] 	public: found md file for org.scala-lang#scala-actors;2.10.0
+[debug] 		=> http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom (2.10.0)
+[debug] 	parser = sbt.CustomPomParser@a41f08
+[debug] 	no ivy file in cache for org.scala-lang#scala-actors;2.10.0: tried C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
+[debug] downloading http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
+[debug] 		to C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml.original.part
+[debug] sha1 file found for http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom: checking...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom.sha1
+[debug] 		to C:\Users\RING_K~1\AppData\Local\Temp\ivytmp2610626131860961219sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-actors;2.10.0!scala-actors.pom(pom.original) (1573ms)
+[debug] 	 trying C:\Users\ring_kinces\.ivy2\local\org.scala-lang\scala-actors\2.10.0\jars\scala-actors.jar
+[debug] 		tried C:\Users\ring_kinces\.ivy2\local\org.scala-lang\scala-actors\2.10.0\jars\scala-actors.jar
+[debug] 	local: resource not reachable for org.scala-lang#scala-actors;2.10.0: res=C:\Users\ring_kinces\.ivy2\local\org.scala-lang\scala-actors\2.10.0\jars\scala-actors.jar
+[debug] 	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
+[debug] no source artifact found for org.scala-lang#scala-actors;2.10.0
+[debug] no javadoc artifact found for org.scala-lang#scala-actors;2.10.0
+[debug] 	default-cache: parsed downloaded md file for org.scala-lang#scala-actors;2.10.0; parsed=org.scala-lang#scala-actors;2.10.0
+[debug] 	checking org.scala-lang#scala-actors;2.10.0 from public against [none]
+[debug] 	module revision kept as first found: org.scala-lang#scala-actors;2.10.0 from public
+[debug] 	found org.scala-lang#scala-actors;2.10.0 in public
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test
+[debug] 	using sbt-chain to resolve org.scala-lang#scala-reflect;2.10.0
+[info] Resolving org.scala-lang#scala-reflect;2.10.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] 	no ivy file in cache for org.scala-lang#scala-reflect;2.10.0: tried C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
+[debug] 	no ivy file in cache for org.scala-lang#scala-reflect;2.10.0: tried C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
+[debug] 	 trying C:\Users\ring_kinces\.ivy2\local\org.scala-lang\scala-reflect\2.10.0\ivys\ivy.xml
+[debug] 		tried C:\Users\ring_kinces\.ivy2\local\org.scala-lang\scala-reflect\2.10.0\ivys\ivy.xml
+[debug] 	local: resource not reachable for org.scala-lang#scala-reflect;2.10.0: res=C:\Users\ring_kinces\.ivy2\local\org.scala-lang\scala-reflect\2.10.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-reflect;2.10.0
+[debug] 	no ivy file in cache for org.scala-lang#scala-reflect;2.10.0: tried C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
+[debug] 	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom
+[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom
+[debug] 	public: found md file for org.scala-lang#scala-reflect;2.10.0
+[debug] 		=> http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom (2.10.0)
+[debug] 	parser = sbt.CustomPomParser@a41f08
+[debug] 	no ivy file in cache for org.scala-lang#scala-reflect;2.10.0: tried C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
+[debug] downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom
+[debug] 		to C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml.original.part
+[debug] sha1 file found for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom: checking...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom.sha1
+[debug] 		to C:\Users\RING_K~1\AppData\Local\Temp\ivytmp2014493068096950062sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.0!scala-reflect.pom(pom.original) (763ms)
+[debug] 	 trying C:\Users\ring_kinces\.ivy2\local\org.scala-lang\scala-reflect\2.10.0\jars\scala-reflect.jar
+[debug] 		tried C:\Users\ring_kinces\.ivy2\local\org.scala-lang\scala-reflect\2.10.0\jars\scala-reflect.jar
+[debug] 	local: resource not reachable for org.scala-lang#scala-reflect;2.10.0: res=C:\Users\ring_kinces\.ivy2\local\org.scala-lang\scala-reflect\2.10.0\jars\scala-reflect.jar
+[debug] 	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar
+[debug] no source artifact found for org.scala-lang#scala-reflect;2.10.0
+[debug] no javadoc artifact found for org.scala-lang#scala-reflect;2.10.0
+[debug] 	default-cache: parsed downloaded md file for org.scala-lang#scala-reflect;2.10.0; parsed=org.scala-lang#scala-reflect;2.10.0
+[debug] 	checking org.scala-lang#scala-reflect;2.10.0 from public against [none]
+[debug] 	module revision kept as first found: org.scala-lang#scala-reflect;2.10.0 from public
+[debug] 	found org.scala-lang#scala-reflect;2.10.0 in public
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->master]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->junit#junit;4.10 [test->default(compile)]
+[debug] loadData of junit#junit;4.10 of rootConf=test
+[debug] 	using sbt-chain to resolve junit#junit;4.10
+[info] Resolving junit#junit;4.10 ...
+[debug] sbt-chain: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}
+[debug] 	no ivy file in cache for junit#junit;4.10: tried C:\Users\ring_kinces\.ivy2\cache\junit\junit\ivy-4.10.xml
+[debug] 	no ivy file in cache for junit#junit;4.10: tried C:\Users\ring_kinces\.ivy2\cache\junit\junit\ivy-4.10.xml
+[debug] 	 trying C:\Users\ring_kinces\.ivy2\local\junit\junit\4.10\ivys\ivy.xml
+[debug] 		tried C:\Users\ring_kinces\.ivy2\local\junit\junit\4.10\ivys\ivy.xml
+[debug] 	local: resource not reachable for junit#junit;4.10: res=C:\Users\ring_kinces\.ivy2\local\junit\junit\4.10\ivys\ivy.xml
+[debug] 	local: no ivy file found for junit#junit;4.10
+[debug] 	no ivy file in cache for junit#junit;4.10: tried C:\Users\ring_kinces\.ivy2\cache\junit\junit\ivy-4.10.xml
+[debug] 	 trying http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom
+[debug] 		tried http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom
+[debug] 	public: found md file for junit#junit;4.10
+[debug] 		=> http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom (4.10)
+[debug] 	parser = sbt.CustomPomParser@a41f08
+[debug] 	no ivy file in cache for junit#junit;4.10: tried C:\Users\ring_kinces\.ivy2\cache\junit\junit\ivy-4.10.xml
+[debug] downloading http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom
+[debug] 		to C:\Users\ring_kinces\.ivy2\cache\junit\junit\ivy-4.10.xml.original.part
+[debug] sha1 file found for http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom: checking...
+[debug] 	public: downloading http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom.sha1
+[debug] 		to C:\Users\RING_K~1\AppData\Local\Temp\ivytmp6583587215864544759sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom
+[debug] 	[SUCCESSFUL ] junit#junit;4.10!junit.pom(pom.original) (741ms)
+[debug] 	 trying C:\Users\ring_kinces\.ivy2\local\junit\junit\4.10\jars\junit.jar
+[debug] 		tried C:\Users\ring_kinces\.ivy2\local\junit\junit\4.10\jars\junit.jar
+[debug] 	local: resource not reachable for junit#junit;4.10: res=C:\Users\ring_kinces\.ivy2\local\junit\junit\4.10\jars\junit.jar
+[debug] 	 trying http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar
+[debug] 		tried http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar
+[debug] no source artifact found for junit#junit;4.10
+[debug] no javadoc artifact found for junit#junit;4.10
+[debug] 	default-cache: parsed downloaded md file for junit#junit;4.10; parsed=junit#junit;4.10
+[debug] 	checking junit#junit;4.10 from public against [none]
+[debug] 	module revision kept as first found: junit#junit;4.10 from public
+[debug] 	found junit#junit;4.10 in public
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->junit#junit;4.10 [test->runtime]
+[debug] loadData of junit#junit;4.10 of rootConf=test
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->junit#junit;4.10 [test->compile]
+[debug] loadData of junit#junit;4.10 of rootConf=test
+[debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(*)]
+[debug] loadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test
+[debug] 	using sbt-chain to resolve org.hamcrest#hamcrest-core;1.1
+[info] Resolving org.hamcrest#hamcrest-core;1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] 	no ivy file in cache for org.hamcrest#hamcrest-core;1.1: tried C:\Users\ring_kinces\.ivy2\cache\org.hamcrest\hamcrest-core\ivy-1.1.xml
+[debug] 	no ivy file in cache for org.hamcrest#hamcrest-core;1.1: tried C:\Users\ring_kinces\.ivy2\cache\org.hamcrest\hamcrest-core\ivy-1.1.xml
+[debug] 	 trying C:\Users\ring_kinces\.ivy2\local\org.hamcrest\hamcrest-core\1.1\ivys\ivy.xml
+[debug] 		tried C:\Users\ring_kinces\.ivy2\local\org.hamcrest\hamcrest-core\1.1\ivys\ivy.xml
+[debug] 	local: resource not reachable for org.hamcrest#hamcrest-core;1.1: res=C:\Users\ring_kinces\.ivy2\local\org.hamcrest\hamcrest-core\1.1\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.hamcrest#hamcrest-core;1.1
+[debug] 	no ivy file in cache for org.hamcrest#hamcrest-core;1.1: tried C:\Users\ring_kinces\.ivy2\cache\org.hamcrest\hamcrest-core\ivy-1.1.xml
+[debug] 	 trying http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[debug] 		tried http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[debug] 	public: found md file for org.hamcrest#hamcrest-core;1.1
+[debug] 		=> http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (1.1)
+[debug] 	parser = sbt.CustomPomParser@a41f08
+[debug] 	no ivy file in cache for org.hamcrest#hamcrest-core;1.1: tried C:\Users\ring_kinces\.ivy2\cache\org.hamcrest\hamcrest-core\ivy-1.1.xml
+[debug] downloading http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[debug] 		to C:\Users\ring_kinces\.ivy2\cache\org.hamcrest\hamcrest-core\ivy-1.1.xml.original.part
+[debug] sha1 file found for http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom: checking...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom.sha1
+[debug] 		to C:\Users\RING_K~1\AppData\Local\Temp\ivytmp7551076781482043777sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.pom(pom.original) (698ms)
+[info] Resolving org.hamcrest#hamcrest-parent;1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.1 {}
+[debug] 	no ivy file in cache for org.hamcrest#hamcrest-parent;1.1: tried C:\Users\ring_kinces\.ivy2\cache\org.hamcrest\hamcrest-parent\ivy-1.1.xml
+[debug] 	no ivy file in cache for org.hamcrest#hamcrest-parent;1.1: tried C:\Users\ring_kinces\.ivy2\cache\org.hamcrest\hamcrest-parent\ivy-1.1.xml
+[debug] 	 trying C:\Users\ring_kinces\.ivy2\local\org.hamcrest\hamcrest-parent\1.1\ivys\ivy.xml
+[debug] 		tried C:\Users\ring_kinces\.ivy2\local\org.hamcrest\hamcrest-parent\1.1\ivys\ivy.xml
+[debug] 	local: resource not reachable for org.hamcrest#hamcrest-parent;1.1: res=C:\Users\ring_kinces\.ivy2\local\org.hamcrest\hamcrest-parent\1.1\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.hamcrest#hamcrest-parent;1.1
+[debug] 	no ivy file in cache for org.hamcrest#hamcrest-parent;1.1: tried C:\Users\ring_kinces\.ivy2\cache\org.hamcrest\hamcrest-parent\ivy-1.1.xml
+[debug] 	 trying http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[debug] 		tried http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[debug] 	public: found md file for org.hamcrest#hamcrest-parent;1.1
+[debug] 		=> http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (1.1)
+[debug] 	parser = sbt.CustomPomParser@a41f08
+[debug] 	no ivy file in cache for org.hamcrest#hamcrest-parent;1.1: tried C:\Users\ring_kinces\.ivy2\cache\org.hamcrest\hamcrest-parent\ivy-1.1.xml
+[debug] downloading http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[debug] 		to C:\Users\ring_kinces\.ivy2\cache\org.hamcrest\hamcrest-parent\ivy-1.1.xml.original.part
+[debug] sha1 file found for http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom: checking...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom.sha1
+[debug] 		to C:\Users\RING_K~1\AppData\Local\Temp\ivytmp6631511404649230862sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-parent;1.1!hamcrest-parent.pom(pom.original) (846ms)
+[debug] 	 trying C:\Users\ring_kinces\.ivy2\local\org.hamcrest\hamcrest-parent\1.1\jars\hamcrest-parent.jar
+[debug] 		tried C:\Users\ring_kinces\.ivy2\local\org.hamcrest\hamcrest-parent\1.1\jars\hamcrest-parent.jar
+[debug] 	local: resource not reachable for org.hamcrest#hamcrest-parent;1.1: res=C:\Users\ring_kinces\.ivy2\local\org.hamcrest\hamcrest-parent\1.1\jars\hamcrest-parent.jar
+[debug] 	 trying http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar
+[debug] HTTP response status: 404 url=http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar
+[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar
+[debug] 	public: resource not reachable for org/hamcrest#hamcrest-parent;1.1: res=http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar
+[debug] 	default-cache: parsed downloaded md file for org.hamcrest#hamcrest-parent;1.1; parsed=org.hamcrest#hamcrest-parent;1.1
+[debug] 	checking org.hamcrest#hamcrest-parent;1.1 from public against [none]
+[debug] 	module revision kept as first found: org.hamcrest#hamcrest-parent;1.1 from public
+[debug] 	 trying C:\Users\ring_kinces\.ivy2\local\org.hamcrest\hamcrest-core\1.1\jars\hamcrest-core.jar
+[debug] 		tried C:\Users\ring_kinces\.ivy2\local\org.hamcrest\hamcrest-core\1.1\jars\hamcrest-core.jar
+[debug] 	local: resource not reachable for org.hamcrest#hamcrest-core;1.1: res=C:\Users\ring_kinces\.ivy2\local\org.hamcrest\hamcrest-core\1.1\jars\hamcrest-core.jar
+[debug] 	 trying http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[debug] no source artifact found for org.hamcrest#hamcrest-core;1.1
+[debug] no javadoc artifact found for org.hamcrest#hamcrest-core;1.1
+[debug] 	default-cache: parsed downloaded md file for org.hamcrest#hamcrest-core;1.1; parsed=org.hamcrest#hamcrest-core;1.1
+[debug] 	checking org.hamcrest#hamcrest-core;1.1 from public against [none]
+[debug] 	module revision kept as first found: org.hamcrest#hamcrest-core;1.1 from public
+[debug] 	found org.hamcrest#hamcrest-core;1.1 in public
+[debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)]
+[debug] loadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test
+[debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)]
+[debug] loadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test
+[debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile]
+[debug] loadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->junit#junit;4.10 [test->master]
+[debug] loadData of junit#junit;4.10 of rootConf=test
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [provided]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=provided
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [optional]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=optional
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [compile-internal]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=compile-internal
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [compile]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [optional]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [provided]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [runtime-internal]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=runtime-internal
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [runtime]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [compile]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [optional]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [test-internal]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=test-internal
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [test]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [runtime]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [compile]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->runtime]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->compile]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->master]
+[debug] loadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->junit#junit;4.10 [test->default(compile)]
+[debug] loadData of junit#junit;4.10 of rootConf=test-internal
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->junit#junit;4.10 [test->runtime]
+[debug] loadData of junit#junit;4.10 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->junit#junit;4.10 [test->compile]
+[debug] loadData of junit#junit;4.10 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(*)]
+[debug] loadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test-internal
+[debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)]
+[debug] loadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)]
+[debug] loadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile]
+[debug] loadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies progfun-forcomp#progfun-forcomp_2.10;1.0.0->junit#junit;4.10 [test->master]
+[debug] loadData of junit#junit;4.10 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [optional]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [provided]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [plugin]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=plugin
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [sources]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=sources
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [docs]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=docs
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for progfun-forcomp#progfun-forcomp_2.10;1.0.0 [pom]
+[debug] loadData of progfun-forcomp#progfun-forcomp_2.10;1.0.0 of rootConf=pom
+[debug] Nbr of module to sort : 6
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15
+[debug] Non matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1
+[debug] Non matching revision detected when sorting.  org.scala-lang#scala-actors depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort done for : org.scala-lang#scala-actors;2.10.0
+[debug] Sort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1
+[debug] Non matching revision detected when sorting.  org.scala-lang#scala-reflect depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort done for : org.scala-lang#scala-reflect;2.10.0
+[debug] Sort dependencies of : junit#junit;4.10 / Number of dependencies = 1
+[debug] Sort dependencies of : org.hamcrest#hamcrest-core;1.1 / Number of dependencies = 3
+[debug] Non matching revision detected when sorting.  org.hamcrest#hamcrest-core depends on junit#junit;4.0, doesn't match junit#junit;4.10
+[debug] Sort done for : org.hamcrest#hamcrest-core;1.1
+[debug] Sort done for : junit#junit;4.10
+[debug] Sort done for : org.scalatest#scalatest_2.10;1.9.1
+[debug] Module descriptor is processed : junit#junit;4.10
+[debug] Module descriptor is processed : org.scala-lang#scala-actors;2.10.0
+[debug] Module descriptor is processed : org.scala-lang#scala-reflect;2.10.0
+[debug] Module descriptor is processed : org.hamcrest#hamcrest-core;1.1
+[debug] org.scala-lang#scala-library;2.10.1 in test-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in test: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in compile: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in runtime: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in runtime-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in compile-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] 	resolved ivy file produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\progfun-forcomp\progfun-forcomp_2.10\1.0.0\resolved.xml.xml
+[debug] :: downloading artifacts ::
+[debug] org.scala-lang#scala-library;2.10.1 in test-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in test: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in compile: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in runtime: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in runtime-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in compile-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in test-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in test: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in compile: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in runtime: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in runtime-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in compile-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] 	 trying http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar
+[info] downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar
+[debug] 		to C:\Users\ring_kinces\.ivy2\cache\org.scalatest\scalatest_2.10\jars\scalatest_2.10-1.9.1.jar.part
+[debug] sha1 file found for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar: checking...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar.sha1
+[debug] 		to C:\Users\RING_K~1\AppData\Local\Temp\ivytmp5992868662957210547sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar (21936ms)
+[debug] 	 trying http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar
+[debug] 		tried http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar
+[info] downloading http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar
+[debug] 		to C:\Users\ring_kinces\.ivy2\cache\junit\junit\jars\junit-4.10.jar.part
+[debug] sha1 file found for http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar: checking...
+[debug] 	public: downloading http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar.sha1
+[debug] 		to C:\Users\RING_K~1\AppData\Local\Temp\ivytmp5666413660527863948sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar
+[info] 	[SUCCESSFUL ] junit#junit;4.10!junit.jar (2044ms)
+[debug] 	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
+[info] downloading http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
+[debug] 		to C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-actors\jars\scala-actors-2.10.0.jar.part
+[debug] sha1 file found for http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar: checking...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar.sha1
+[debug] 		to C:\Users\RING_K~1\AppData\Local\Temp\ivytmp2145696082061288610sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-actors;2.10.0!scala-actors.jar (2862ms)
+[debug] 	 trying http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar
+[info] downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar
+[debug] 		to C:\Users\ring_kinces\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.10.0.jar.part
+[debug] sha1 file found for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar: checking...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar.sha1
+[debug] 		to C:\Users\RING_K~1\AppData\Local\Temp\ivytmp296808363772430515sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar (23541ms)
+[debug] 	 trying http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[info] downloading http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[debug] 		to C:\Users\ring_kinces\.ivy2\cache\org.hamcrest\hamcrest-core\jars\hamcrest-core-1.1.jar.part
+[debug] sha1 file found for http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar: checking...
+[debug] 	public: downloading http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar.sha1
+[debug] 		to C:\Users\RING_K~1\AppData\Local\Temp\ivytmp2294157737947710417sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar (1213ms)
+[debug] :: resolution report :: resolve 21314ms :: artifacts dl 51739ms
+[debug] Nbr of module to sort : 1
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] 	report for progfun-forcomp#progfun-forcomp_2.10;1.0.0 compile produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\reports\progfun-forcomp-progfun-forcomp_2.10\compile-resolved.xml
+[debug] Nbr of module to sort : 1
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] 	report for progfun-forcomp#progfun-forcomp_2.10;1.0.0 runtime produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\reports\progfun-forcomp-progfun-forcomp_2.10\runtime-resolved.xml
+[debug] Nbr of module to sort : 6
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15
+[debug] Non matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1
+[debug] Non matching revision detected when sorting.  org.scala-lang#scala-actors depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort done for : org.scala-lang#scala-actors;2.10.0
+[debug] Sort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1
+[debug] Non matching revision detected when sorting.  org.scala-lang#scala-reflect depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort done for : org.scala-lang#scala-reflect;2.10.0
+[debug] Sort dependencies of : junit#junit;4.10 / Number of dependencies = 1
+[debug] Sort dependencies of : org.hamcrest#hamcrest-core;1.1 / Number of dependencies = 3
+[debug] Non matching revision detected when sorting.  org.hamcrest#hamcrest-core depends on junit#junit;4.0, doesn't match junit#junit;4.10
+[debug] Sort done for : org.hamcrest#hamcrest-core;1.1
+[debug] Sort done for : junit#junit;4.10
+[debug] Sort done for : org.scalatest#scalatest_2.10;1.9.1
+[debug] Module descriptor is processed : org.scala-lang#scala-actors;2.10.0
+[debug] Module descriptor is processed : org.scala-lang#scala-reflect;2.10.0
+[debug] Module descriptor is processed : junit#junit;4.10
+[debug] Module descriptor is processed : org.hamcrest#hamcrest-core;1.1
+[debug] 	report for progfun-forcomp#progfun-forcomp_2.10;1.0.0 test produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\reports\progfun-forcomp-progfun-forcomp_2.10\test-resolved.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for progfun-forcomp#progfun-forcomp_2.10;1.0.0 provided produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\reports\progfun-forcomp-progfun-forcomp_2.10\provided-resolved.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for progfun-forcomp#progfun-forcomp_2.10;1.0.0 optional produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\reports\progfun-forcomp-progfun-forcomp_2.10\optional-resolved.xml
+[debug] Nbr of module to sort : 1
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] 	report for progfun-forcomp#progfun-forcomp_2.10;1.0.0 compile-internal produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\reports\progfun-forcomp-progfun-forcomp_2.10\compile-internal-resolved.xml
+[debug] Nbr of module to sort : 1
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] 	report for progfun-forcomp#progfun-forcomp_2.10;1.0.0 runtime-internal produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\reports\progfun-forcomp-progfun-forcomp_2.10\runtime-internal-resolved.xml
+[debug] Nbr of module to sort : 6
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15
+[debug] Non matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1
+[debug] Non matching revision detected when sorting.  org.scala-lang#scala-actors depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort done for : org.scala-lang#scala-actors;2.10.0
+[debug] Sort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1
+[debug] Non matching revision detected when sorting.  org.scala-lang#scala-reflect depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort done for : org.scala-lang#scala-reflect;2.10.0
+[debug] Sort dependencies of : junit#junit;4.10 / Number of dependencies = 1
+[debug] Sort dependencies of : org.hamcrest#hamcrest-core;1.1 / Number of dependencies = 3
+[debug] Non matching revision detected when sorting.  org.hamcrest#hamcrest-core depends on junit#junit;4.0, doesn't match junit#junit;4.10
+[debug] Sort done for : org.hamcrest#hamcrest-core;1.1
+[debug] Sort done for : junit#junit;4.10
+[debug] Sort done for : org.scalatest#scalatest_2.10;1.9.1
+[debug] Module descriptor is processed : org.scala-lang#scala-actors;2.10.0
+[debug] Module descriptor is processed : org.scala-lang#scala-reflect;2.10.0
+[debug] Module descriptor is processed : junit#junit;4.10
+[debug] Module descriptor is processed : org.hamcrest#hamcrest-core;1.1
+[debug] 	report for progfun-forcomp#progfun-forcomp_2.10;1.0.0 test-internal produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\reports\progfun-forcomp-progfun-forcomp_2.10\test-internal-resolved.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for progfun-forcomp#progfun-forcomp_2.10;1.0.0 plugin produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\reports\progfun-forcomp-progfun-forcomp_2.10\plugin-resolved.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for progfun-forcomp#progfun-forcomp_2.10;1.0.0 sources produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\reports\progfun-forcomp-progfun-forcomp_2.10\sources-resolved.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for progfun-forcomp#progfun-forcomp_2.10;1.0.0 docs produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\reports\progfun-forcomp-progfun-forcomp_2.10\docs-resolved.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for progfun-forcomp#progfun-forcomp_2.10;1.0.0 pom produced in C:\Users\ring_kinces\Documents\My Dropbox\Dropbox\scala_assignments\forcomp\target\resolution-cache\reports\progfun-forcomp-progfun-forcomp_2.10\pom-resolved.xml
+[debug] 	resolve done (21314ms resolve - 51739ms download)
+[info] Done updating.

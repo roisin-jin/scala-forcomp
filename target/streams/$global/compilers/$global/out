@@ -1,0 +1,33 @@
+[debug] Getting compiler-interface from component compiler for Scala 2.10.1
+[debug] Other repositories:
+[debug] Default repositories:
+[debug] 	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@1f52a1d)
+[debug] Other repositories:
+[debug] Default repositories:
+[debug] 	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@1c60b1e)
+[info] 'compiler-interface' not yet compiled for Scala 2.10.1. Compiling...
+[debug] Plain interface to Scala compiler 2.10.1  with arguments: 
+[debug] 	-nowarn
+[debug] 	-d
+[debug] 	C:\Users\RING_K~1\AppData\Local\Temp\sbt_b7d2f868
+[debug] 	-bootclasspath
+[debug] 	c:\Program Files\Java\jdk1.6.0_26\jre\lib\resources.jar;c:\Program Files\Java\jdk1.6.0_26\jre\lib\rt.jar;c:\Program Files\Java\jdk1.6.0_26\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.6.0_26\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.6.0_26\jre\lib\jce.jar;c:\Program Files\Java\jdk1.6.0_26\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.6.0_26\jre\lib\modules\jdk.boot.jar;c:\Program Files\Java\jdk1.6.0_26\jre\classes;C:\Users\ring_kinces\.sbt\boot\scala-2.10.1\lib\scala-library.jar
+[debug] 	-classpath
+[debug] 	C:\Users\ring_kinces\.sbt\boot\scala-2.9.2\org.scala-sbt\sbt\0.12.1\xsbti\interface-0.12.1.jar;C:\Users\ring_kinces\.sbt\boot\scala-2.9.2\org.scala-sbt\sbt\0.12.1\compiler-interface-src\compiler-interface-src-0.12.1.jar;C:\Users\ring_kinces\.sbt\boot\scala-2.10.1\lib\scala-compiler.jar;C:\Users\ring_kinces\.sbt\boot\scala-2.10.1\lib\jansi.jar;C:\Users\ring_kinces\.sbt\boot\scala-2.10.1\lib\jline.jar;C:\Users\ring_kinces\.sbt\boot\scala-2.10.1\lib\scala-reflect.jar
+[debug] 	C:\Users\RING_K~1\AppData\Local\Temp\sbt_42a82e03\API.scala
+[debug] 	C:\Users\RING_K~1\AppData\Local\Temp\sbt_42a82e03\Analyzer.scala
+[debug] 	C:\Users\RING_K~1\AppData\Local\Temp\sbt_42a82e03\Command.scala
+[debug] 	C:\Users\RING_K~1\AppData\Local\Temp\sbt_42a82e03\CompilerInterface.scala
+[debug] 	C:\Users\RING_K~1\AppData\Local\Temp\sbt_42a82e03\ConsoleInterface.scala
+[debug] 	C:\Users\RING_K~1\AppData\Local\Temp\sbt_42a82e03\DelegatingReporter.scala
+[debug] 	C:\Users\RING_K~1\AppData\Local\Temp\sbt_42a82e03\Log.scala
+[debug] 	C:\Users\RING_K~1\AppData\Local\Temp\sbt_42a82e03\Message.scala
+[debug] 	C:\Users\RING_K~1\AppData\Local\Temp\sbt_42a82e03\ScaladocInterface.scala
+[info]   Compilation completed in 90.674 s
+[debug] Other repositories:
+[debug] Default repositories:
+[debug] 	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@1a24f04)
+[debug] Getting compiler-interface from component compiler for Scala 2.10.1
+[debug] Other repositories:
+[debug] Default repositories:
+[debug] 	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@9f7be)

@@ -1,0 +1,8 @@
+[debug] Other repositories:
+[debug] Default repositories:
+[debug] 	Raw(ProjectResolver(inter-project, mapped: ))
+[debug] 	URLRepository(typesafe-ivy-releases,sbt.Patterns@114fc36)
+[debug] 	URLRepository(sbt-plugin-releases,sbt.Patterns@ba5a81)
+[debug] 	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@8bd3bb)
+[debug] 	public: http://repo1.maven.org/maven2/
+[debug] Using inline dependencies specified in Scala.
